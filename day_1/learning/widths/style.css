@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.parent {
+    background-color: #24424A;
+    padding: 50px;
+    /* Using percentage as width gives responsiveness as viewsize decreases */
+    width: 80%;
+    margin: 0 auto;
+}
+
+.child {
+    background-color: #38cfd9;
+    height: 250px;
+    width: 70%;
+    margin: auto;
+}
